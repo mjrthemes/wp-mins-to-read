@@ -166,7 +166,7 @@ class WP_MinsToRead {
 	 */
 	function add_mtr_column( $columns ) {
 	    return array_merge( $columns, 
-	        array( 'mtr' => __( 'min Read', 'wp-mins-to-read' ) ) );
+	        array( 'mtr' => __( 'min read', 'wp-mins-to-read' ) ) );
 	}	
 
 	/**
